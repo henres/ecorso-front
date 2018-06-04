@@ -1,0 +1,49 @@
+{
+    "name": "ecorso-front",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "http://github.com/henres/ecorso-front",
+    "author": "Henri d'Auvigny <henri.dauvigny@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "tsc:watch": "tsc --watch",
+        "dev": "node_modules/.bin/webpack-dev-server",
+        "watch": "webpack --watch --mode development",
+        "build": "webpack --mode production"
+    },
+    "dependencies": {
+        "@types/moment": "^2.13.0",
+        "@types/react-transition-group": "^2.0.10",
+        "d3-scale": "^2.0.0",
+        "formik": "^0.11.11",
+        "lc-form-validation": "^1.0.0",
+        "nodemon": "^1.17.5",
+        "prop-types": "^15.6.1",
+        "react": "^16.4.0",
+        "react-c3js": "^0.1.20",
+        "react-dom": "^16.4.0",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.2.2",
+        "react-transition-group": "^2.3.1",
+        "redux": "^4.0.0",
+        "redux-thunk": "^2.3.0",
+        "toastr": "^2.1.4",
+        "webpack": "^4.10.2"
+    },
+    "devDependencies": {
+        "@types/d3-scale": "^2.0.1",
+        "@types/node": "^10.1.4",
+        "@types/react": "^16.3.16",
+        "@types/react-redux": "^6.0.1",
+        "@types/react-router-dom": "^4.2.6",
+        "@types/toastr": "^2.1.35",
+        "awesome-typescript-loader": "^5.0.0",
+        "bootstrap": "^4.1.1",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.3",
+        "source-map-loader": "^0.2.3",
+        "typescript": "^2.8.4",
+        "webpack-cli": "^3.0.1",
+        "webpack-dev-server": "^3.1.4"
+    }
+}
