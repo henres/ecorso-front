@@ -13,8 +13,12 @@
     },
     "dependencies": {
         "@blueprintjs/core": "^2.3.1",
+        "@types/bootstrap": "^4.1.0",
+        "@types/lodash": "^4.14.109",
+        "@types/prop-types": "^15.5.3",
         "d3-scale": "^2.0.0",
         "formik": "^0.11.11",
+        "lodash": "^4.17.10",
         "nodemon": "^1.17.5",
         "prop-types": "^15.6.1",
         "react": "^16.4.0",
@@ -24,11 +28,13 @@
         "react-router": "^4.2.0",
         "react-router-dom": "^4.2.2",
         "react-transition-group": "^2.3.1",
+        "reactstrap": "^6.1.0",
         "redux": "^4.0.0",
         "redux-thunk": "^2.3.0",
         "resolve-url-loader": "^2.3.0",
         "toastr": "^2.1.4",
-        "webpack": "^4.10.2"
+        "webpack": "^4.10.2",
+        "yup": "^0.25.1"
     },
     "devDependencies": {
         "@types/d3-scale": "^2.0.1",
@@ -40,7 +46,9 @@
         "@types/react-router": "^4.0.26",
         "@types/react-router-dom": "^4.2.6",
         "@types/react-transition-group": "^2.0.10",
+        "@types/reactstrap": "^5.0.27",
         "@types/toastr": "^2.1.35",
+        "@types/yup": "^0.24.6",
         "awesome-typescript-loader": "^5.0.0",
         "bootstrap": "^4.1.1",
         "clean-webpack-plugin": "^0.1.19",
