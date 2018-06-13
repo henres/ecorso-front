@@ -29,6 +29,23 @@
     classnames "^2.2"
     tslib "^1.9.0"
 
+"@blueprintjs/select@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-2.0.1.tgz#4746aff7ed534113b17d0663bf548b2867dc4b2a"
+  dependencies:
+    "@blueprintjs/core" "^2.3.1"
+    classnames "^2.2"
+    tslib "^1.9.0"
+
+"@blueprintjs/table@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-2.1.1.tgz#78cca0e94205b1ba3c3094cf667ea7b04205e27d"
+  dependencies:
+    "@blueprintjs/core" "^2.3.1"
+    classnames "^2.2"
+    prop-types "^15.6.0"
+    tslib "^1.9.0"
+
 "@types/bootstrap@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-4.1.0.tgz#b6504125870c5fc96225d9d461f06e5545e6b827"
@@ -3278,13 +3295,13 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
+lodash@4.x.x, lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
 lodash@^2.4.1:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -5682,6 +5699,12 @@ trim-newlines@^1.0.0:
   resolved "https://registry.yarnpkg.com/true-case-path/-/true-case-path-1.0.2.tgz#7ec91130924766c7f573be3020c34f8fdfd00d62"
   dependencies:
     glob "^6.0.4"
+
+ts-money@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/ts-money/-/ts-money-0.4.4.tgz#c81e6ba3b4ba13605359ae2ec4275a2bce97ce5b"
+  dependencies:
+    lodash "4.x.x"
 
 tslib@^1.9.0:
   version "1.9.2"

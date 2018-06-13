@@ -1,16 +1,17 @@
 import * as React from 'react';
-import { Menu, MenuItem, MenuDivider } from "@blueprintjs/core";
+import { Nav, NavItem, NavLink } from 'reactstrap';
 
 class Sidebar extends React.Component<{}, {}> {
     public render() {
         return (
-            <Menu>
-                <MenuItem icon="new-text-box" onClick={this.handleClick} text="New text box" />
-                <MenuItem icon="new-object" onClick={this.handleClick} text="New object" />
-                <MenuItem icon="new-link" onClick={this.handleClick} text="New link" />
-                <MenuDivider />
-                <MenuItem text="Settings..." icon="cog" />
-            </Menu>
+            <Nav>
+                <NavItem>
+                    <NavLink></NavLink>
+                </NavItem>
+                <NavItem icon="new-object" onClick={this.handleClick} text="New object" />
+                <NavItem icon="new-link" onClick={this.handleClick} text="New link" />
+                <NavItem text="Settings..." icon="cog" />
+            </Nav>
         );
     }
 

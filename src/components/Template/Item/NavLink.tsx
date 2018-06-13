@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 import {Button} from "@blueprintjs/core";
-import React from "react";
+import * as React from "react";
 
 interface NavLinkInterface {
 

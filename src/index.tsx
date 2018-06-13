@@ -5,7 +5,7 @@ import { AppRouter } from './Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css/normalize.css';
 import '@blueprintjs/core/lib/css/blueprint.css';
-// import '@blueprintjs/icons/lib/scss/blueprint-icons.scss';
+import '@blueprintjs/table/lib/css/table.css';
 
 import "./styles/style.scss";
 

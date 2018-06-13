@@ -13,6 +13,8 @@
     },
     "dependencies": {
         "@blueprintjs/core": "^2.3.1",
+        "@blueprintjs/select": "^2.0.1",
+        "@blueprintjs/table": "^2.1.1",
         "@types/bootstrap": "^4.1.0",
         "@types/lodash": "^4.14.109",
         "@types/prop-types": "^15.5.3",
@@ -33,6 +35,7 @@
         "redux-thunk": "^2.3.0",
         "resolve-url-loader": "^2.3.0",
         "toastr": "^2.1.4",
+        "ts-money": "^0.4.4",
         "webpack": "^4.10.2",
         "yup": "^0.25.1"
     },
